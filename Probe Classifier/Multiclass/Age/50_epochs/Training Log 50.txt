@@ -1,0 +1,200 @@
+Epoch 1/50
+493/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.5451 - loss: 1.0347
+Epoch 1: val_Accuracy improved from -inf to 0.60005, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_1.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - Accuracy: 0.5469 - loss: 1.0303 - val_Accuracy: 0.6000 - val_loss: 0.9116
+Epoch 2/50
+489/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.5897 - loss: 0.9323
+Epoch 2: val_Accuracy improved from 0.60005 to 0.60566, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_2.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5891 - loss: 0.9331 - val_Accuracy: 0.6057 - val_loss: 0.9000
+Epoch 3/50
+528/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.5798 - loss: 0.9377
+Epoch 3: val_Accuracy improved from 0.60566 to 0.61033, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_3.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5799 - loss: 0.9376 - val_Accuracy: 0.6103 - val_loss: 0.8835
+Epoch 4/50
+484/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.5941 - loss: 0.9230
+Epoch 4: val_Accuracy improved from 0.61033 to 0.61314, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_4.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5940 - loss: 0.9231 - val_Accuracy: 0.6131 - val_loss: 0.8740
+Epoch 5/50
+490/535 ━━━━━━━━━━━━━━━━━━━━ 0s 931us/step - Accuracy: 0.5930 - loss: 0.9199
+Epoch 5: val_Accuracy did not improve from 0.61314
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5931 - loss: 0.9198 - val_Accuracy: 0.6010 - val_loss: 0.8933
+Epoch 6/50
+507/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.5885 - loss: 0.9113
+Epoch 6: val_Accuracy did not improve from 0.61314
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5888 - loss: 0.9113 - val_Accuracy: 0.6127 - val_loss: 0.8890
+Epoch 7/50
+488/535 ━━━━━━━━━━━━━━━━━━━━ 0s 934us/step - Accuracy: 0.6027 - loss: 0.9036
+Epoch 7: val_Accuracy improved from 0.61314 to 0.61921, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_7.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6022 - loss: 0.9039 - val_Accuracy: 0.6192 - val_loss: 0.8669
+Epoch 8/50
+484/535 ━━━━━━━━━━━━━━━━━━━━ 0s 941us/step - Accuracy: 0.5881 - loss: 0.9139
+Epoch 8: val_Accuracy did not improve from 0.61921
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5889 - loss: 0.9133 - val_Accuracy: 0.6162 - val_loss: 0.8811
+Epoch 9/50
+514/535 ━━━━━━━━━━━━━━━━━━━━ 0s 981us/step - Accuracy: 0.6051 - loss: 0.9017
+Epoch 9: val_Accuracy did not improve from 0.61921
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6049 - loss: 0.9018 - val_Accuracy: 0.6120 - val_loss: 0.8716
+Epoch 10/50
+493/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6096 - loss: 0.8924
+Epoch 10: val_Accuracy did not improve from 0.61921
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6090 - loss: 0.8931 - val_Accuracy: 0.5914 - val_loss: 0.9090
+Epoch 11/50
+498/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6018 - loss: 0.8991
+Epoch 11: val_Accuracy did not improve from 0.61921
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6018 - loss: 0.8991 - val_Accuracy: 0.6162 - val_loss: 0.8733
+Epoch 12/50
+500/535 ━━━━━━━━━━━━━━━━━━━━ 0s 912us/step - Accuracy: 0.6011 - loss: 0.9021
+Epoch 12: val_Accuracy improved from 0.61921 to 0.61992, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_12.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6012 - loss: 0.9017 - val_Accuracy: 0.6199 - val_loss: 0.8616
+Epoch 13/50
+528/535 ━━━━━━━━━━━━━━━━━━━━ 0s 964us/step - Accuracy: 0.6095 - loss: 0.8841
+Epoch 13: val_Accuracy improved from 0.61992 to 0.62272, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_13.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6095 - loss: 0.8842 - val_Accuracy: 0.6227 - val_loss: 0.8582
+Epoch 14/50
+523/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6103 - loss: 0.8861
+Epoch 14: val_Accuracy did not improve from 0.62272
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6102 - loss: 0.8862 - val_Accuracy: 0.6178 - val_loss: 0.8649
+Epoch 15/50
+505/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6012 - loss: 0.8958
+Epoch 15: val_Accuracy did not improve from 0.62272
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6011 - loss: 0.8956 - val_Accuracy: 0.6038 - val_loss: 0.8769
+Epoch 16/50
+489/535 ━━━━━━━━━━━━━━━━━━━━ 0s 936us/step - Accuracy: 0.6106 - loss: 0.8817
+Epoch 16: val_Accuracy did not improve from 0.62272
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6102 - loss: 0.8822 - val_Accuracy: 0.6045 - val_loss: 0.8788
+Epoch 17/50
+493/535 ━━━━━━━━━━━━━━━━━━━━ 0s 923us/step - Accuracy: 0.6070 - loss: 0.8861
+Epoch 17: val_Accuracy did not improve from 0.62272
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6067 - loss: 0.8864 - val_Accuracy: 0.6176 - val_loss: 0.8602
+Epoch 18/50
+502/535 ━━━━━━━━━━━━━━━━━━━━ 0s 905us/step - Accuracy: 0.6045 - loss: 0.8891
+Epoch 18: val_Accuracy improved from 0.62272 to 0.62389, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_18.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6049 - loss: 0.8888 - val_Accuracy: 0.6239 - val_loss: 0.8534
+Epoch 19/50
+526/535 ━━━━━━━━━━━━━━━━━━━━ 0s 962us/step - Accuracy: 0.6098 - loss: 0.8784
+Epoch 19: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6097 - loss: 0.8785 - val_Accuracy: 0.6180 - val_loss: 0.8625
+Epoch 20/50
+534/535 ━━━━━━━━━━━━━━━━━━━━ 0s 948us/step - Accuracy: 0.6095 - loss: 0.8715
+Epoch 20: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6095 - loss: 0.8716 - val_Accuracy: 0.6223 - val_loss: 0.8512
+Epoch 21/50
+486/535 ━━━━━━━━━━━━━━━━━━━━ 0s 936us/step - Accuracy: 0.6100 - loss: 0.8741
+Epoch 21: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6095 - loss: 0.8750 - val_Accuracy: 0.6047 - val_loss: 0.9099
+Epoch 22/50
+483/535 ━━━━━━━━━━━━━━━━━━━━ 0s 944us/step - Accuracy: 0.6022 - loss: 0.8852
+Epoch 22: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6028 - loss: 0.8844 - val_Accuracy: 0.6204 - val_loss: 0.8570
+Epoch 23/50
+530/535 ━━━━━━━━━━━━━━━━━━━━ 0s 953us/step - Accuracy: 0.5951 - loss: 0.9021
+Epoch 23: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5952 - loss: 0.9018 - val_Accuracy: 0.6124 - val_loss: 0.8811
+Epoch 24/50
+534/535 ━━━━━━━━━━━━━━━━━━━━ 0s 948us/step - Accuracy: 0.6092 - loss: 0.8804
+Epoch 24: val_Accuracy did not improve from 0.62389
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6092 - loss: 0.8804 - val_Accuracy: 0.6216 - val_loss: 0.8533
+Epoch 25/50
+495/535 ━━━━━━━━━━━━━━━━━━━━ 0s 922us/step - Accuracy: 0.6133 - loss: 0.8774
+Epoch 25: val_Accuracy improved from 0.62389 to 0.62459, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_25.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6131 - loss: 0.8772 - val_Accuracy: 0.6246 - val_loss: 0.8516
+Epoch 26/50
+485/535 ━━━━━━━━━━━━━━━━━━━━ 0s 937us/step - Accuracy: 0.6141 - loss: 0.8751
+Epoch 26: val_Accuracy did not improve from 0.62459
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6138 - loss: 0.8753 - val_Accuracy: 0.6190 - val_loss: 0.8666
+Epoch 27/50
+486/535 ━━━━━━━━━━━━━━━━━━━━ 0s 939us/step - Accuracy: 0.6165 - loss: 0.8732
+Epoch 27: val_Accuracy did not improve from 0.62459
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6161 - loss: 0.8734 - val_Accuracy: 0.6209 - val_loss: 0.8553
+Epoch 28/50
+497/535 ━━━━━━━━━━━━━━━━━━━━ 0s 919us/step - Accuracy: 0.6080 - loss: 0.8756
+Epoch 28: val_Accuracy improved from 0.62459 to 0.62506, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_28.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6080 - loss: 0.8758 - val_Accuracy: 0.6251 - val_loss: 0.8553
+Epoch 29/50
+487/535 ━━━━━━━━━━━━━━━━━━━━ 0s 936us/step - Accuracy: 0.6155 - loss: 0.8675
+Epoch 29: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6151 - loss: 0.8678 - val_Accuracy: 0.5907 - val_loss: 0.8954
+Epoch 30/50
+523/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6078 - loss: 0.8712
+Epoch 30: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6078 - loss: 0.8713 - val_Accuracy: 0.6136 - val_loss: 0.8687
+Epoch 31/50
+523/535 ━━━━━━━━━━━━━━━━━━━━ 0s 971us/step - Accuracy: 0.6145 - loss: 0.8722
+Epoch 31: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6145 - loss: 0.8722 - val_Accuracy: 0.6199 - val_loss: 0.8657
+Epoch 32/50
+494/535 ━━━━━━━━━━━━━━━━━━━━ 0s 918us/step - Accuracy: 0.5992 - loss: 0.8889
+Epoch 32: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.5998 - loss: 0.8883 - val_Accuracy: 0.5479 - val_loss: 0.9543
+Epoch 33/50
+495/535 ━━━━━━━━━━━━━━━━━━━━ 0s 919us/step - Accuracy: 0.6179 - loss: 0.8698
+Epoch 33: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6175 - loss: 0.8699 - val_Accuracy: 0.6145 - val_loss: 0.8718
+Epoch 34/50
+498/535 ━━━━━━━━━━━━━━━━━━━━ 0s 916us/step - Accuracy: 0.6089 - loss: 0.8666
+Epoch 34: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6092 - loss: 0.8667 - val_Accuracy: 0.6225 - val_loss: 0.8567
+Epoch 35/50
+511/535 ━━━━━━━━━━━━━━━━━━━━ 0s 894us/step - Accuracy: 0.6093 - loss: 0.8673
+Epoch 35: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6092 - loss: 0.8676 - val_Accuracy: 0.6241 - val_loss: 0.8803
+Epoch 36/50
+520/535 ━━━━━━━━━━━━━━━━━━━━ 0s 977us/step - Accuracy: 0.6028 - loss: 0.8766
+Epoch 36: val_Accuracy did not improve from 0.62506
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6031 - loss: 0.8763 - val_Accuracy: 0.6194 - val_loss: 0.8496
+Epoch 37/50
+518/535 ━━━━━━━━━━━━━━━━━━━━ 0s 981us/step - Accuracy: 0.6102 - loss: 0.8690
+Epoch 37: val_Accuracy improved from 0.62506 to 0.62553, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_37.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6103 - loss: 0.8688 - val_Accuracy: 0.6255 - val_loss: 0.8507
+Epoch 38/50
+534/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6095 - loss: 0.8723
+Epoch 38: val_Accuracy improved from 0.62553 to 0.62740, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_38.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6095 - loss: 0.8723 - val_Accuracy: 0.6274 - val_loss: 0.8410
+Epoch 39/50
+514/535 ━━━━━━━━━━━━━━━━━━━━ 0s 985us/step - Accuracy: 0.6130 - loss: 0.8614
+Epoch 39: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6129 - loss: 0.8617 - val_Accuracy: 0.6255 - val_loss: 0.8501
+Epoch 40/50
+489/535 ━━━━━━━━━━━━━━━━━━━━ 0s 929us/step - Accuracy: 0.6054 - loss: 0.8745
+Epoch 40: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6059 - loss: 0.8736 - val_Accuracy: 0.5722 - val_loss: 0.9084
+Epoch 41/50
+527/535 ━━━━━━━━━━━━━━━━━━━━ 0s 959us/step - Accuracy: 0.6057 - loss: 0.8755
+Epoch 41: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6058 - loss: 0.8753 - val_Accuracy: 0.6000 - val_loss: 0.9025
+Epoch 42/50
+529/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6191 - loss: 0.8557
+Epoch 42: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - Accuracy: 0.6190 - loss: 0.8558 - val_Accuracy: 0.6145 - val_loss: 0.8588
+Epoch 43/50
+521/535 ━━━━━━━━━━━━━━━━━━━━ 0s 972us/step - Accuracy: 0.6164 - loss: 0.8596
+Epoch 43: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6163 - loss: 0.8597 - val_Accuracy: 0.6173 - val_loss: 0.8554
+Epoch 44/50
+526/535 ━━━━━━━━━━━━━━━━━━━━ 0s 868us/step - Accuracy: 0.6070 - loss: 0.8754
+Epoch 44: val_Accuracy did not improve from 0.62740
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6071 - loss: 0.8753 - val_Accuracy: 0.6267 - val_loss: 0.8379
+Epoch 45/50
+499/535 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - Accuracy: 0.6168 - loss: 0.8627
+Epoch 45: val_Accuracy improved from 0.62740 to 0.62810, saving model to Probe Classifier\Multiclass\Age\50_epochs\Weights\Probe_Classifier_45.weights.h5
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6168 - loss: 0.8629 - val_Accuracy: 0.6281 - val_loss: 0.8418
+Epoch 46/50
+495/535 ━━━━━━━━━━━━━━━━━━━━ 0s 924us/step - Accuracy: 0.6097 - loss: 0.8737
+Epoch 46: val_Accuracy did not improve from 0.62810
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6098 - loss: 0.8732 - val_Accuracy: 0.6213 - val_loss: 0.8480
+Epoch 47/50
+513/535 ━━━━━━━━━━━━━━━━━━━━ 0s 887us/step - Accuracy: 0.6175 - loss: 0.8607
+Epoch 47: val_Accuracy did not improve from 0.62810
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6176 - loss: 0.8608 - val_Accuracy: 0.6272 - val_loss: 0.8426
+Epoch 48/50
+488/535 ━━━━━━━━━━━━━━━━━━━━ 0s 936us/step - Accuracy: 0.6097 - loss: 0.8623
+Epoch 48: val_Accuracy did not improve from 0.62810
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6097 - loss: 0.8629 - val_Accuracy: 0.6272 - val_loss: 0.8535
+Epoch 49/50
+515/535 ━━━━━━━━━━━━━━━━━━━━ 0s 887us/step - Accuracy: 0.6107 - loss: 0.8622
+Epoch 49: val_Accuracy did not improve from 0.62810
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6108 - loss: 0.8623 - val_Accuracy: 0.6253 - val_loss: 0.8384
+Epoch 50/50
+531/535 ━━━━━━━━━━━━━━━━━━━━ 0s 957us/step - Accuracy: 0.6172 - loss: 0.8594
+Epoch 50: val_Accuracy did not improve from 0.62810
+535/535 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - Accuracy: 0.6172 - loss: 0.8594 - val_Accuracy: 0.6253 - val_loss: 0.8567
