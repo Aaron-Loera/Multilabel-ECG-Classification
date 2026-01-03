@@ -43,12 +43,10 @@ def load_database(file_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     signals = database['signals']
     fields = database['fields']
     metadata = database['metadata']
-    superclasses = database['superclasses']
+    col_names = database['col_names']
     
     data = {}
     
-    # Further breaking down the metadata
-    col_names = ['patient_id', 'age', 'sex', 'height', 'weight', 'site', 'device']
     for i, col in enumerate(col_names):
         data[col] = pd.Series(metadata[:, i], index=ecg_ids)
     
@@ -57,7 +55,6 @@ def load_database(file_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     
     # Adding fields and superclasses to the data
     data['fields'] = fields
-    data['superclasses'] = superclasses
     
     ptbxl_df = pd.DataFrame(data=data, index=ecg_ids)
     signals_df = pd.DataFrame(data=signals, index=ecg_ids, dtype=float)
