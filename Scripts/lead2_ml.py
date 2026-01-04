@@ -230,21 +230,31 @@ def generate_12lead_model(input_shape: tuple=(1000,12), n_outputs: int=5):
         Conv1D(36, 15, padding='same', groups=12, use_bias=False),
         BatchNormalization(),
         Activation('relu'),
+        Dropout(0.2),
+        
         # Learnable downsampling
         Conv1D(64, 7, strides=2, padding='same', use_bias=False),
         BatchNormalization(),
         Activation('relu'),
+        Dropout(0.2),
+        
         # Block 2: Cross-lead fusion
         Conv1D(128, 7, padding='same', use_bias=False),
         BatchNormalization(),
         Activation('relu'),
+        Dropout(0.2),
+        
         Conv1D(128, 5, strides=2, padding='same', use_bias=False),
         BatchNormalization(),
         Activation('relu'),
+        Dropout(0.2),
+        
         # Block 3: Deep abstraction
         Conv1D(256, 5, padding='same', use_bias=False),
         BatchNormalization(),
         Activation('relu'),
+        Dropout(0.2),
+        
         # Embedding head
         GlobalAveragePooling1D(),
         Dense(128, activation='relu'),
