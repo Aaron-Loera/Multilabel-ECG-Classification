@@ -223,6 +223,37 @@ def generate_article_1D_model():
     return model
 
 
+def generate_12lead_model(input_shape: tuple=(1000,12), n_outputs: int=5):
+    model = Sequential([
+        Input(shape=input_shape),
+        # Block 1: Per-lead temporal modeling
+        Conv1D(36, 15, padding='same', groups=12, use_bias=False),
+        BatchNormalization(),
+        Activation('relu'),
+        # Learnable downsampling
+        Conv1D(64, 7, strides=2, padding='same', use_bias=False),
+        BatchNormalization(),
+        Activation('relu'),
+        # Block 2: Cross-lead fusion
+        Conv1D(128, 7, padding='same', use_bias=False),
+        BatchNormalization(),
+        Activation('relu'),
+        Conv1D(128, 5, strides=2, padding='same', use_bias=False),
+        BatchNormalization(),
+        Activation('relu'),
+        # Block 3: Deep abstraction
+        Conv1D(256, 5, padding='same', use_bias=False),
+        BatchNormalization(),
+        Activation('relu'),
+        # Embedding head
+        GlobalAveragePooling1D(),
+        Dense(128, activation='relu'),
+        Dropout(0.3),
+        Dense(n_outputs, activation='sigmoid')
+    ])
+    return model
+
+
 def ml_label_encoding(train_labels: pd.DataFrame, test_labels: pd.DataFrame) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
     '''
     Transforms the labels for both the training and testing datasets into multi-hot binary matrices.

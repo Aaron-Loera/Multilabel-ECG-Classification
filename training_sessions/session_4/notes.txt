@@ -1,0 +1,1 @@
+* Used new 12-Lead CNN model architecture (kept default hyperparamers for ADAM)

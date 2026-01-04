@@ -1,0 +1,1 @@
+* Used recommended split for PTB-XL dataset (the stratified folds)

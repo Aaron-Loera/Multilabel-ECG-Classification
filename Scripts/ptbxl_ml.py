@@ -24,7 +24,7 @@ def plot_signal(ecg_id: int, signals: np.ndarray, fields: dict) -> None:
     plt.show()
 
 
-def load_database(file_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+def load_database(file_path: str) -> tuple[pd.DataFrame, np.ndarray]:
     '''
     Loads a compressed ".npz" database from the specified path. Two identically indexed DataFrames are returned.
     
@@ -32,8 +32,7 @@ def load_database(file_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
         file_path: The path containing the compressed ".npz" file
         
     Returns:
-        tuple: A tuple consisting of two DataFrames, one containing the PTB-XL metadata and the second containing
-        all corresponding ECG signals
+        tuple: A two-element tuple consisting of the PTB-XL metadata and the 12-lead ECG signals
     '''
     # Loading the compressed file
     database = np.load(file_path, allow_pickle=True)
@@ -57,6 +56,6 @@ def load_database(file_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     data['fields'] = fields
     
     ptbxl_df = pd.DataFrame(data=data, index=ecg_ids)
-    signals_df = pd.DataFrame(data=signals, index=ecg_ids, dtype=float)
+    # signals_df = pd.DataFrame(data=signals, index=ecg_ids, dtype=float)
     
-    return (ptbxl_df, signals_df)
+    return (ptbxl_df, signals)

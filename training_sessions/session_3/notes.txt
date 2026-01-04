@@ -1,0 +1,1 @@
+* Changed ADAM hyperparametes to default values (0.9, 0.999, 1e-07)
