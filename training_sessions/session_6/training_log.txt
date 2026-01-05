@@ -1,0 +1,200 @@
+Epoch 1/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.5575 - Accuracy: 0.6792 - Precision: 0.3920 - Recall: 0.3763 - loss: 0.6166
+Epoch 1: val_Accuracy improved from -inf to 0.74080, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_1.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 209s 6s/step - AUC: 0.5590 - Accuracy: 0.6805 - Precision: 0.3939 - Recall: 0.3742 - loss: 0.6154 - val_AUC: 0.5874 - val_Accuracy: 0.7408 - val_Precision: 0.5000 - val_Recall: 1.7928e-04 - val_loss: 0.6324
+Epoch 2/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.7434 - Accuracy: 0.7840 - Precision: 0.7071 - Recall: 0.2906 - loss: 0.4836
+Epoch 2: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 200s 6s/step - AUC: 0.7441 - Accuracy: 0.7842 - Precision: 0.7072 - Recall: 0.2920 - loss: 0.4831 - val_AUC: 0.6032 - val_Accuracy: 0.7396 - val_Precision: 0.1750 - val_Recall: 0.0013 - val_loss: 0.6119
+Epoch 3/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.8179 - Accuracy: 0.8180 - Precision: 0.7304 - Recall: 0.4759 - loss: 0.4156
+Epoch 3: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 195s 6s/step - AUC: 0.8181 - Accuracy: 0.8181 - Precision: 0.7304 - Recall: 0.4763 - loss: 0.4154 - val_AUC: 0.6359 - val_Accuracy: 0.5810 - val_Precision: 0.2676 - val_Recall: 0.3550 - val_loss: 0.6364
+Epoch 4/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.8470 - Accuracy: 0.8341 - Precision: 0.7409 - Recall: 0.5602 - loss: 0.3822
+Epoch 4: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 192s 6s/step - AUC: 0.8471 - Accuracy: 0.8342 - Precision: 0.7409 - Recall: 0.5604 - loss: 0.3821 - val_AUC: 0.6369 - val_Accuracy: 0.5782 - val_Precision: 0.2662 - val_Recall: 0.3571 - val_loss: 0.6549
+Epoch 5/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.8617 - Accuracy: 0.8435 - Precision: 0.7548 - Recall: 0.5880 - loss: 0.3630
+Epoch 5: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 202s 6s/step - AUC: 0.8617 - Accuracy: 0.8435 - Precision: 0.7547 - Recall: 0.5883 - loss: 0.3630 - val_AUC: 0.6488 - val_Accuracy: 0.6211 - val_Precision: 0.2926 - val_Recall: 0.3259 - val_loss: 0.6450
+Epoch 6/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.8709 - Accuracy: 0.8498 - Precision: 0.7556 - Recall: 0.6214 - loss: 0.3506
+Epoch 6: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 193s 6s/step - AUC: 0.8709 - Accuracy: 0.8498 - Precision: 0.7555 - Recall: 0.6214 - loss: 0.3505 - val_AUC: 0.6479 - val_Accuracy: 0.6721 - val_Precision: 0.3116 - val_Recall: 0.2193 - val_loss: 0.6073
+Epoch 7/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.8760 - Accuracy: 0.8524 - Precision: 0.7630 - Recall: 0.6254 - loss: 0.3446
+Epoch 7: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 183s 5s/step - AUC: 0.8761 - Accuracy: 0.8524 - Precision: 0.7632 - Recall: 0.6257 - loss: 0.3444 - val_AUC: 0.6607 - val_Accuracy: 0.6833 - val_Precision: 0.3518 - val_Recall: 0.2634 - val_loss: 0.5915
+Epoch 8/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.8864 - Accuracy: 0.8571 - Precision: 0.7687 - Recall: 0.6462 - loss: 0.3323
+Epoch 8: val_Accuracy did not improve from 0.74080
+34/34 ━━━━━━━━━━━━━━━━━━━━ 150s 4s/step - AUC: 0.8864 - Accuracy: 0.8571 - Precision: 0.7688 - Recall: 0.6462 - loss: 0.3323 - val_AUC: 0.6674 - val_Accuracy: 0.7297 - val_Precision: 0.4635 - val_Recall: 0.2723 - val_loss: 0.5462
+Epoch 9/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.8890 - Accuracy: 0.8587 - Precision: 0.7712 - Recall: 0.6490 - loss: 0.3291
+Epoch 9: val_Accuracy improved from 0.74080 to 0.76603, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_9.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 170s 5s/step - AUC: 0.8891 - Accuracy: 0.8587 - Precision: 0.7713 - Recall: 0.6492 - loss: 0.3290 - val_AUC: 0.7012 - val_Accuracy: 0.7660 - val_Precision: 0.5880 - val_Recall: 0.3252 - val_loss: 0.5056
+Epoch 10/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.8949 - Accuracy: 0.8652 - Precision: 0.7835 - Recall: 0.6640 - loss: 0.3196
+Epoch 10: val_Accuracy improved from 0.76603 to 0.79368, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_10.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 217s 6s/step - AUC: 0.8948 - Accuracy: 0.8652 - Precision: 0.7835 - Recall: 0.6639 - loss: 0.3196 - val_AUC: 0.7297 - val_Accuracy: 0.7937 - val_Precision: 0.6692 - val_Recall: 0.4034 - val_loss: 0.4740
+Epoch 11/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.8936 - Accuracy: 0.8631 - Precision: 0.7802 - Recall: 0.6639 - loss: 0.3230
+Epoch 11: val_Accuracy improved from 0.79368 to 0.80516, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_11.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 214s 6s/step - AUC: 0.8937 - Accuracy: 0.8632 - Precision: 0.7803 - Recall: 0.6641 - loss: 0.3228 - val_AUC: 0.7514 - val_Accuracy: 0.8052 - val_Precision: 0.6932 - val_Recall: 0.4455 - val_loss: 0.4684
+Epoch 12/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.8993 - Accuracy: 0.8683 - Precision: 0.7886 - Recall: 0.6729 - loss: 0.3125
+Epoch 12: val_Accuracy improved from 0.80516 to 0.81659, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_12.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 207s 6s/step - AUC: 0.8993 - Accuracy: 0.8683 - Precision: 0.7886 - Recall: 0.6730 - loss: 0.3124 - val_AUC: 0.7833 - val_Accuracy: 0.8166 - val_Precision: 0.7151 - val_Recall: 0.4860 - val_loss: 0.4542
+Epoch 13/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9031 - Accuracy: 0.8719 - Precision: 0.7938 - Recall: 0.6832 - loss: 0.3065
+Epoch 13: val_Accuracy improved from 0.81659 to 0.82189, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_13.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 190s 6s/step - AUC: 0.9031 - Accuracy: 0.8719 - Precision: 0.7938 - Recall: 0.6831 - loss: 0.3065 - val_AUC: 0.8097 - val_Accuracy: 0.8219 - val_Precision: 0.7171 - val_Recall: 0.5167 - val_loss: 0.4619
+Epoch 14/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 6s/step - AUC: 0.9058 - Accuracy: 0.8732 - Precision: 0.7967 - Recall: 0.6908 - loss: 0.3039
+Epoch 14: val_Accuracy improved from 0.82189 to 0.82533, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_14.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 197s 6s/step - AUC: 0.9058 - Accuracy: 0.8732 - Precision: 0.7967 - Recall: 0.6908 - loss: 0.3039 - val_AUC: 0.8282 - val_Accuracy: 0.8253 - val_Precision: 0.7156 - val_Recall: 0.5412 - val_loss: 0.4669
+Epoch 15/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9071 - Accuracy: 0.8747 - Precision: 0.7992 - Recall: 0.6900 - loss: 0.3013
+Epoch 15: val_Accuracy improved from 0.82533 to 0.82951, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_15.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 186s 5s/step - AUC: 0.9071 - Accuracy: 0.8747 - Precision: 0.7992 - Recall: 0.6901 - loss: 0.3013 - val_AUC: 0.8406 - val_Accuracy: 0.8295 - val_Precision: 0.7186 - val_Recall: 0.5626 - val_loss: 0.4745
+Epoch 16/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9103 - Accuracy: 0.8773 - Precision: 0.8028 - Recall: 0.6965 - loss: 0.2962
+Epoch 16: val_Accuracy improved from 0.82951 to 0.83513, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_16.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 186s 5s/step - AUC: 0.9103 - Accuracy: 0.8773 - Precision: 0.8028 - Recall: 0.6965 - loss: 0.2962 - val_AUC: 0.8521 - val_Accuracy: 0.8351 - val_Precision: 0.7267 - val_Recall: 0.5834 - val_loss: 0.4755
+Epoch 17/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9109 - Accuracy: 0.8768 - Precision: 0.8016 - Recall: 0.6968 - loss: 0.2957
+Epoch 17: val_Accuracy improved from 0.83513 to 0.84215, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_17.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 189s 6s/step - AUC: 0.9110 - Accuracy: 0.8768 - Precision: 0.8017 - Recall: 0.6968 - loss: 0.2956 - val_AUC: 0.8642 - val_Accuracy: 0.8421 - val_Precision: 0.7408 - val_Recall: 0.6015 - val_loss: 0.4456
+Epoch 18/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9113 - Accuracy: 0.8773 - Precision: 0.8021 - Recall: 0.6989 - loss: 0.2947
+Epoch 18: val_Accuracy improved from 0.84215 to 0.84298, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_18.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 188s 5s/step - AUC: 0.9113 - Accuracy: 0.8773 - Precision: 0.8022 - Recall: 0.6991 - loss: 0.2946 - val_AUC: 0.8676 - val_Accuracy: 0.8430 - val_Precision: 0.7411 - val_Recall: 0.6060 - val_loss: 0.4556
+Epoch 19/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9163 - Accuracy: 0.8793 - Precision: 0.8083 - Recall: 0.7029 - loss: 0.2877
+Epoch 19: val_Accuracy improved from 0.84298 to 0.84991, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_19.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 192s 6s/step - AUC: 0.9162 - Accuracy: 0.8793 - Precision: 0.8082 - Recall: 0.7030 - loss: 0.2878 - val_AUC: 0.8773 - val_Accuracy: 0.8499 - val_Precision: 0.7516 - val_Recall: 0.6287 - val_loss: 0.4311
+Epoch 20/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9167 - Accuracy: 0.8814 - Precision: 0.8119 - Recall: 0.7084 - loss: 0.2857
+Epoch 20: val_Accuracy improved from 0.84991 to 0.85074, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_20.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 167s 5s/step - AUC: 0.9167 - Accuracy: 0.8814 - Precision: 0.8118 - Recall: 0.7084 - loss: 0.2858 - val_AUC: 0.8791 - val_Accuracy: 0.8507 - val_Precision: 0.7522 - val_Recall: 0.6325 - val_loss: 0.4400
+Epoch 21/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9146 - Accuracy: 0.8801 - Precision: 0.8092 - Recall: 0.7052 - loss: 0.2885
+Epoch 21: val_Accuracy improved from 0.85074 to 0.85985, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_21.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9146 - Accuracy: 0.8801 - Precision: 0.8092 - Recall: 0.7053 - loss: 0.2884 - val_AUC: 0.8918 - val_Accuracy: 0.8599 - val_Precision: 0.7690 - val_Recall: 0.6565 - val_loss: 0.3982
+Epoch 22/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9179 - Accuracy: 0.8806 - Precision: 0.8104 - Recall: 0.7092 - loss: 0.2855
+Epoch 22: val_Accuracy improved from 0.85985 to 0.86036, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_22.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 152s 4s/step - AUC: 0.9179 - Accuracy: 0.8806 - Precision: 0.8104 - Recall: 0.7093 - loss: 0.2855 - val_AUC: 0.8911 - val_Accuracy: 0.8604 - val_Precision: 0.7687 - val_Recall: 0.6597 - val_loss: 0.4002
+Epoch 23/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9180 - Accuracy: 0.8820 - Precision: 0.8110 - Recall: 0.7135 - loss: 0.2840
+Epoch 23: val_Accuracy improved from 0.86036 to 0.86585, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_23.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9181 - Accuracy: 0.8820 - Precision: 0.8111 - Recall: 0.7135 - loss: 0.2839 - val_AUC: 0.8994 - val_Accuracy: 0.8658 - val_Precision: 0.7782 - val_Recall: 0.6748 - val_loss: 0.3603
+Epoch 24/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9217 - Accuracy: 0.8845 - Precision: 0.8161 - Recall: 0.7148 - loss: 0.2776
+Epoch 24: val_Accuracy did not improve from 0.86585
+34/34 ━━━━━━━━━━━━━━━━━━━━ 148s 4s/step - AUC: 0.9217 - Accuracy: 0.8844 - Precision: 0.8160 - Recall: 0.7148 - loss: 0.2777 - val_AUC: 0.8947 - val_Accuracy: 0.8601 - val_Precision: 0.7673 - val_Recall: 0.6605 - val_loss: 0.4026
+Epoch 25/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9190 - Accuracy: 0.8826 - Precision: 0.8121 - Recall: 0.7134 - loss: 0.2828
+Epoch 25: val_Accuracy improved from 0.86585 to 0.86626, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_25.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 155s 5s/step - AUC: 0.9190 - Accuracy: 0.8826 - Precision: 0.8121 - Recall: 0.7135 - loss: 0.2826 - val_AUC: 0.8969 - val_Accuracy: 0.8663 - val_Precision: 0.7797 - val_Recall: 0.6746 - val_loss: 0.3859
+Epoch 26/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9220 - Accuracy: 0.8854 - Precision: 0.8172 - Recall: 0.7175 - loss: 0.2760
+Epoch 26: val_Accuracy did not improve from 0.86626
+34/34 ━━━━━━━━━━━━━━━━━━━━ 157s 5s/step - AUC: 0.9220 - Accuracy: 0.8854 - Precision: 0.8172 - Recall: 0.7176 - loss: 0.2760 - val_AUC: 0.8939 - val_Accuracy: 0.8621 - val_Precision: 0.7712 - val_Recall: 0.6655 - val_loss: 0.4045
+Epoch 27/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9246 - Accuracy: 0.8861 - Precision: 0.8203 - Recall: 0.7214 - loss: 0.2741
+Epoch 27: val_Accuracy did not improve from 0.86626
+34/34 ━━━━━━━━━━━━━━━━━━━━ 157s 5s/step - AUC: 0.9246 - Accuracy: 0.8861 - Precision: 0.8203 - Recall: 0.7214 - loss: 0.2742 - val_AUC: 0.9011 - val_Accuracy: 0.8615 - val_Precision: 0.7678 - val_Recall: 0.6676 - val_loss: 0.3938
+Epoch 28/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9231 - Accuracy: 0.8864 - Precision: 0.8169 - Recall: 0.7248 - loss: 0.2757
+Epoch 28: val_Accuracy improved from 0.86626 to 0.86743, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_28.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 160s 5s/step - AUC: 0.9231 - Accuracy: 0.8864 - Precision: 0.8169 - Recall: 0.7249 - loss: 0.2756 - val_AUC: 0.9026 - val_Accuracy: 0.8674 - val_Precision: 0.7768 - val_Recall: 0.6856 - val_loss: 0.3802
+Epoch 29/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9256 - Accuracy: 0.8878 - Precision: 0.8201 - Recall: 0.7253 - loss: 0.2705
+Epoch 29: val_Accuracy improved from 0.86743 to 0.86817, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_29.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 153s 4s/step - AUC: 0.9256 - Accuracy: 0.8878 - Precision: 0.8201 - Recall: 0.7253 - loss: 0.2705 - val_AUC: 0.9027 - val_Accuracy: 0.8682 - val_Precision: 0.7795 - val_Recall: 0.6852 - val_loss: 0.3784
+Epoch 30/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9247 - Accuracy: 0.8883 - Precision: 0.8182 - Recall: 0.7295 - loss: 0.2723
+Epoch 30: val_Accuracy improved from 0.86817 to 0.87124, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_30.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9247 - Accuracy: 0.8883 - Precision: 0.8182 - Recall: 0.7294 - loss: 0.2723 - val_AUC: 0.9001 - val_Accuracy: 0.8712 - val_Precision: 0.7844 - val_Recall: 0.6940 - val_loss: 0.3727
+Epoch 31/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9268 - Accuracy: 0.8886 - Precision: 0.8229 - Recall: 0.7273 - loss: 0.2693
+Epoch 31: val_Accuracy did not improve from 0.87124
+34/34 ━━━━━━━━━━━━━━━━━━━━ 150s 4s/step - AUC: 0.9268 - Accuracy: 0.8886 - Precision: 0.8228 - Recall: 0.7273 - loss: 0.2693 - val_AUC: 0.9043 - val_Accuracy: 0.8689 - val_Precision: 0.7821 - val_Recall: 0.6848 - val_loss: 0.3739
+Epoch 32/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9270 - Accuracy: 0.8888 - Precision: 0.8246 - Recall: 0.7289 - loss: 0.2697
+Epoch 32: val_Accuracy improved from 0.87124 to 0.87523, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_32.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 149s 4s/step - AUC: 0.9270 - Accuracy: 0.8888 - Precision: 0.8245 - Recall: 0.7289 - loss: 0.2697 - val_AUC: 0.9086 - val_Accuracy: 0.8752 - val_Precision: 0.7889 - val_Recall: 0.7081 - val_loss: 0.3495
+Epoch 33/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9266 - Accuracy: 0.8883 - Precision: 0.8172 - Recall: 0.7311 - loss: 0.2678
+Epoch 33: val_Accuracy did not improve from 0.87523
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9266 - Accuracy: 0.8883 - Precision: 0.8173 - Recall: 0.7310 - loss: 0.2678 - val_AUC: 0.9004 - val_Accuracy: 0.8682 - val_Precision: 0.7765 - val_Recall: 0.6902 - val_loss: 0.3914
+Epoch 34/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9287 - Accuracy: 0.8913 - Precision: 0.8216 - Recall: 0.7401 - loss: 0.2650
+Epoch 34: val_Accuracy did not improve from 0.87523
+34/34 ━━━━━━━━━━━━━━━━━━━━ 148s 4s/step - AUC: 0.9286 - Accuracy: 0.8912 - Precision: 0.8216 - Recall: 0.7399 - loss: 0.2651 - val_AUC: 0.9053 - val_Accuracy: 0.8716 - val_Precision: 0.7849 - val_Recall: 0.6949 - val_loss: 0.3694
+Epoch 35/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9301 - Accuracy: 0.8917 - Precision: 0.8253 - Recall: 0.7375 - loss: 0.2634
+Epoch 35: val_Accuracy did not improve from 0.87523
+34/34 ━━━━━━━━━━━━━━━━━━━━ 150s 4s/step - AUC: 0.9300 - Accuracy: 0.8917 - Precision: 0.8252 - Recall: 0.7374 - loss: 0.2634 - val_AUC: 0.9028 - val_Accuracy: 0.8709 - val_Precision: 0.7834 - val_Recall: 0.6936 - val_loss: 0.3776
+Epoch 36/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9324 - Accuracy: 0.8928 - Precision: 0.8291 - Recall: 0.7406 - loss: 0.2596
+Epoch 36: val_Accuracy did not improve from 0.87523
+34/34 ━━━━━━━━━━━━━━━━━━━━ 155s 5s/step - AUC: 0.9323 - Accuracy: 0.8927 - Precision: 0.8289 - Recall: 0.7405 - loss: 0.2598 - val_AUC: 0.9082 - val_Accuracy: 0.8738 - val_Precision: 0.7880 - val_Recall: 0.7022 - val_loss: 0.3470
+Epoch 37/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9281 - Accuracy: 0.8876 - Precision: 0.8213 - Recall: 0.7257 - loss: 0.2681
+Epoch 37: val_Accuracy did not improve from 0.87523
+34/34 ━━━━━━━━━━━━━━━━━━━━ 149s 4s/step - AUC: 0.9282 - Accuracy: 0.8877 - Precision: 0.8214 - Recall: 0.7259 - loss: 0.2680 - val_AUC: 0.9051 - val_Accuracy: 0.8727 - val_Precision: 0.7862 - val_Recall: 0.6990 - val_loss: 0.3636
+Epoch 38/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9313 - Accuracy: 0.8915 - Precision: 0.8243 - Recall: 0.7388 - loss: 0.2612
+Epoch 38: val_Accuracy improved from 0.87523 to 0.87579, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_38.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9313 - Accuracy: 0.8915 - Precision: 0.8243 - Recall: 0.7388 - loss: 0.2613 - val_AUC: 0.9088 - val_Accuracy: 0.8758 - val_Precision: 0.7908 - val_Recall: 0.7081 - val_loss: 0.3464
+Epoch 39/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9326 - Accuracy: 0.8932 - Precision: 0.8278 - Recall: 0.7418 - loss: 0.2588
+Epoch 39: val_Accuracy did not improve from 0.87579
+34/34 ━━━━━━━━━━━━━━━━━━━━ 148s 4s/step - AUC: 0.9326 - Accuracy: 0.8932 - Precision: 0.8277 - Recall: 0.7418 - loss: 0.2589 - val_AUC: 0.9059 - val_Accuracy: 0.8723 - val_Precision: 0.7866 - val_Recall: 0.6963 - val_loss: 0.3715
+Epoch 40/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9314 - Accuracy: 0.8921 - Precision: 0.8260 - Recall: 0.7409 - loss: 0.2622
+Epoch 40: val_Accuracy did not improve from 0.87579
+34/34 ━━━━━━━━━━━━━━━━━━━━ 148s 4s/step - AUC: 0.9314 - Accuracy: 0.8921 - Precision: 0.8260 - Recall: 0.7409 - loss: 0.2622 - val_AUC: 0.9038 - val_Accuracy: 0.8735 - val_Precision: 0.7886 - val_Recall: 0.6994 - val_loss: 0.3644
+Epoch 41/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9351 - Accuracy: 0.8970 - Precision: 0.8351 - Recall: 0.7513 - loss: 0.2541
+Epoch 41: val_Accuracy did not improve from 0.87579
+34/34 ━━━━━━━━━━━━━━━━━━━━ 150s 4s/step - AUC: 0.9350 - Accuracy: 0.8969 - Precision: 0.8349 - Recall: 0.7511 - loss: 0.2543 - val_AUC: 0.9051 - val_Accuracy: 0.8741 - val_Precision: 0.7882 - val_Recall: 0.7031 - val_loss: 0.3574
+Epoch 42/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9326 - Accuracy: 0.8930 - Precision: 0.8281 - Recall: 0.7399 - loss: 0.2585
+Epoch 42: val_Accuracy improved from 0.87579 to 0.87621, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_42.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 155s 5s/step - AUC: 0.9326 - Accuracy: 0.8930 - Precision: 0.8281 - Recall: 0.7399 - loss: 0.2585 - val_AUC: 0.9087 - val_Accuracy: 0.8762 - val_Precision: 0.7895 - val_Recall: 0.7123 - val_loss: 0.3529
+Epoch 43/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9321 - Accuracy: 0.8923 - Precision: 0.8268 - Recall: 0.7436 - loss: 0.2621
+Epoch 43: val_Accuracy did not improve from 0.87621
+34/34 ━━━━━━━━━━━━━━━━━━━━ 163s 5s/step - AUC: 0.9321 - Accuracy: 0.8924 - Precision: 0.8268 - Recall: 0.7436 - loss: 0.2621 - val_AUC: 0.9047 - val_Accuracy: 0.8752 - val_Precision: 0.7885 - val_Recall: 0.7087 - val_loss: 0.3579
+Epoch 44/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9355 - Accuracy: 0.8946 - Precision: 0.8311 - Recall: 0.7473 - loss: 0.2546
+Epoch 44: val_Accuracy did not improve from 0.87621
+34/34 ━━━━━━━━━━━━━━━━━━━━ 150s 4s/step - AUC: 0.9355 - Accuracy: 0.8946 - Precision: 0.8310 - Recall: 0.7472 - loss: 0.2547 - val_AUC: 0.9041 - val_Accuracy: 0.8745 - val_Precision: 0.7883 - val_Recall: 0.7054 - val_loss: 0.3629
+Epoch 45/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9350 - Accuracy: 0.8940 - Precision: 0.8297 - Recall: 0.7428 - loss: 0.2532
+Epoch 45: val_Accuracy improved from 0.87621 to 0.87625, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_45.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 155s 5s/step - AUC: 0.9350 - Accuracy: 0.8939 - Precision: 0.8295 - Recall: 0.7427 - loss: 0.2534 - val_AUC: 0.9059 - val_Accuracy: 0.8763 - val_Precision: 0.7886 - val_Recall: 0.7141 - val_loss: 0.3528
+Epoch 46/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9339 - Accuracy: 0.8941 - Precision: 0.8275 - Recall: 0.7467 - loss: 0.2570
+Epoch 46: val_Accuracy improved from 0.87625 to 0.87639, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_46.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 151s 4s/step - AUC: 0.9339 - Accuracy: 0.8941 - Precision: 0.8276 - Recall: 0.7466 - loss: 0.2570 - val_AUC: 0.9088 - val_Accuracy: 0.8764 - val_Precision: 0.7878 - val_Recall: 0.7160 - val_loss: 0.3446
+Epoch 47/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 5s/step - AUC: 0.9346 - Accuracy: 0.8941 - Precision: 0.8306 - Recall: 0.7456 - loss: 0.2560
+Epoch 47: val_Accuracy did not improve from 0.87639
+34/34 ━━━━━━━━━━━━━━━━━━━━ 157s 5s/step - AUC: 0.9346 - Accuracy: 0.8940 - Precision: 0.8305 - Recall: 0.7455 - loss: 0.2560 - val_AUC: 0.9021 - val_Accuracy: 0.8696 - val_Precision: 0.7811 - val_Recall: 0.6904 - val_loss: 0.3946
+Epoch 48/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9355 - Accuracy: 0.8942 - Precision: 0.8303 - Recall: 0.7442 - loss: 0.2561
+Epoch 48: val_Accuracy improved from 0.87639 to 0.87672, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\training_sessions\session_5\CustomCNN_12Lead_48.weights.h5
+34/34 ━━━━━━━━━━━━━━━━━━━━ 148s 4s/step - AUC: 0.9355 - Accuracy: 0.8942 - Precision: 0.8304 - Recall: 0.7443 - loss: 0.2561 - val_AUC: 0.9084 - val_Accuracy: 0.8767 - val_Precision: 0.7909 - val_Recall: 0.7128 - val_loss: 0.3511
+Epoch 49/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9347 - Accuracy: 0.8941 - Precision: 0.8273 - Recall: 0.7475 - loss: 0.2544
+Epoch 49: val_Accuracy did not improve from 0.87672
+34/34 ━━━━━━━━━━━━━━━━━━━━ 153s 4s/step - AUC: 0.9347 - Accuracy: 0.8941 - Precision: 0.8273 - Recall: 0.7475 - loss: 0.2544 - val_AUC: 0.9110 - val_Accuracy: 0.8755 - val_Precision: 0.7898 - val_Recall: 0.7080 - val_loss: 0.3526
+Epoch 50/50
+34/34 ━━━━━━━━━━━━━━━━━━━━ 0s 4s/step - AUC: 0.9359 - Accuracy: 0.8948 - Precision: 0.8298 - Recall: 0.7507 - loss: 0.2551
+Epoch 50: val_Accuracy did not improve from 0.87672
+34/34 ━━━━━━━━━━━━━━━━━━━━ 155s 5s/step - AUC: 0.9358 - Accuracy: 0.8948 - Precision: 0.8298 - Recall: 0.7506 - loss: 0.2551 - val_AUC: 0.9081 - val_Accuracy: 0.8743 - val_Precision: 0.7911 - val_Recall: 0.6999 - val_loss: 0.3628
