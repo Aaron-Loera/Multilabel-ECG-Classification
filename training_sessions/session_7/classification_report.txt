@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+          CD       0.84      0.69      0.76       991
+         HYP       0.89      0.20      0.32       530
+          MI       0.82      0.60      0.70      1090
+        NORM       0.77      0.95      0.85      1918
+        STTC       0.80      0.68      0.74      1049
+
+   micro avg       0.80      0.71      0.75      5578
+   macro avg       0.83      0.62      0.67      5578
+weighted avg       0.81      0.71      0.73      5578
+ samples avg       0.79      0.75      0.76      5578
