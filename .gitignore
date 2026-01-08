@@ -1,5 +1,10 @@
 # Files
 *.h5
 *.npz
-Scratch.ipynb
 
+# Notebooks
+Scratch.ipynb
+MC_*
+
+# Directories
+Training Sessions\
