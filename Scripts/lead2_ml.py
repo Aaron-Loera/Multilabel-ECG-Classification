@@ -1,44 +1,64 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from sklearn.metrics import multilabel_confusion_matrix
-from sklearn.preprocessing import MultiLabelBinarizer
+import os
 import seaborn as sns
 import keras
+from sklearn.metrics import multilabel_confusion_matrix
+from sklearn.preprocessing import MultiLabelBinarizer
 from keras.layers import Input, Conv1D, MaxPooling1D, GlobalAveragePooling1D, Dropout, Dense, BatchNormalization, Activation # type: ignore
 from keras.models import Sequential # type: ignore
 
 
-def plot_graphs(history) -> None:
+def plot_graphs(history, save_path: str) -> None:
     '''
     Plots 3 graphs using a sequential model's history: Training vs. Validation Loss, Training vs. Validation Accuracy,
     and Training vs. Validation AUC.
     
     Args:
         history: A history object (i.e., a record of training and validation metrics)
+        save_path: The save path where the loss, accuracy, and AUC figures will be saved
     
     Returns:
         None:
     '''
     # Plots training loss versus validation loss
-    plt.plot(history.epoch, history.history['loss'], 'b', label='Training Loss')
-    plt.plot(history.epoch, history.history['val_loss'], 'g', label='Validation Loss')
+    plt.figure(figsize=(8,4))
+    plt.plot(history.epoch, history.history['loss'], 'b', marker='.', label='Training Loss')
+    plt.plot(history.epoch, history.history['val_loss'], 'g', marker='.', label='Validation Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.ylim(bottom=0.0)
+    plt.grid(True, alpha=0.3)
     plt.legend()
     plt.title('Loss')
+    plt.savefig(os.path.join(save_path, 'Loss.png'))
     plt.show()
     
     # Plots training accuracy versus validation accuracy
-    plt.plot(history.epoch, history.history['Accuracy'], 'b', label='Training Accuracy')
-    plt.plot(history.epoch, history.history['val_Accuracy'], 'g', label='Validation Accuracy')
+    plt.figure(figsize=(8,4))
+    plt.plot(history.epoch, history.history['Accuracy'], 'b', marker='.', label='Training Accuracy')
+    plt.plot(history.epoch, history.history['val_Accuracy'], 'g', marker='.', label='Validation Accuracy')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy')
+    plt.ylim(bottom=0.0)
+    plt.grid(True, alpha=0.3)
     plt.legend()
     plt.title('Accuracy')
+    plt.savefig(os.path.join(save_path, 'Accuracy.png'))
     plt.show()
     
     # Plots training area under curve versus validation area under curve
-    plt.plot(history.epoch, history.history['AUC'], 'b', label='Training AUC')
-    plt.plot(history.epoch, history.history['val_AUC'], 'g', label='Validation AUC')
+    plt.figure(figsize=(8,4))
+    plt.plot(history.epoch, history.history['AUC'], 'b', marker='.', label='Training AUC')
+    plt.plot(history.epoch, history.history['val_AUC'], 'g', marker='.', label='Validation AUC')
+    plt.xlabel('Epochs')
+    plt.ylabel('AUC Score')
+    plt.ylim(bottom=0.0)
+    plt.grid(True, alpha=0.3)
     plt.legend()
     plt.title('AUC')
+    plt.savefig(os.path.join(save_path, 'AUC.png'))
     plt.show()
     
 
@@ -264,7 +284,7 @@ def generate_12lead_model(input_shape: tuple=(1000,12), n_outputs: int=5):
     return model
 
 
-def ml_label_encoding(train_labels: pd.DataFrame, test_labels: pd.DataFrame) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+def ml_label_encoding(train_labels: pd.Series | np.ndarray, test_labels: pd.Series | np.ndarray) -> tuple:
     '''
     Transforms the labels for both the training and testing datasets into multi-hot binary matrices.
     
@@ -283,5 +303,12 @@ def ml_label_encoding(train_labels: pd.DataFrame, test_labels: pd.DataFrame) -> 
     
     # Storing the classes
     classes = mlb.classes_
+    
+    # Saves original index of labels if they were Series objects
+    if isinstance(train_labels, pd.Series):
+        y_train = pd.DataFrame(data=y_train, index=train_labels.index)
+        
+    if isinstance(test_labels, pd.Series):
+        y_test = pd.DataFrame(data=y_test, index=test_labels.index)
     
     return (y_train, y_test, classes)
