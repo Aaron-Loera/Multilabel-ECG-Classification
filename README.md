@@ -59,40 +59,34 @@ Multilabel-ECG-Classification/
 ├── 📓 Cross_Lead_CNN.ipynb          # CNN model development and training
 ├── 📓 Feature_Space.ipynb           # Feature space analysis and exploration  
 ├── 📓 Preprocessing.ipynb           # Data preprocessing and preparation
-├── 📄 Scratch.ipynb                # Development scratchpad
 │
 ├── 📂 processed_datasets/           # Processed and compressed datasets
-│   ├── processed_dataset_12_lead_lr.npz  # Main 12-lead dataset (100Hz)
-│   └── processed_dataset.npz        # Alternative processed dataset
 │
 ├── 📂 Scripts/                      # Python modules and utilities
 │   ├── cnn.py                      # CNN model architecture definitions
 │   ├── pbtxl.py                    # PTB-XL database utilities
-│   └── __pycache__/                # Compiled Python bytecode
 │
 ├── 📂 training_sessions/            # CNN training results and artifacts
 │   ├── session_1/                  # Training iteration 1
 │   ├── session_2/                  # Training iteration 2
-│   ├── session_3/                  # Training iteration 3
-│   ├── session_4/                  # Training iteration 4
-│   ├── session_5/                  # Training iteration 5
-│   │   ├── classification_report.txt     # Performance metrics
-│   │   ├── training_log.txt             # Training progress logs
-│   │   ├── notes.txt                    # Session notes and observations
-│   │   ├── confusion_matrices/          # Confusion matrix visualizations
-│   │   └── weights/                     # Saved model weights per epoch
-│   │       ├── CustomCNN_12Lead_1.weights.h5
-│   │       ├── CustomCNN_12Lead_2.weights.h5
-│   │       └── ...
-│   └── session_6/                  # Training iteration 6
-│       └── session_7/              # Training iteration 7
+│   ├── session_3/                  
+│   ├── session_4/                  
+│   └── session_n/                  
+│       ├── classification_report.txt     # Performance metrics
+│       ├── training_log.txt             # Training progress logs
+│       ├── notes.txt                    # Session notes and observations
+│       ├── confusion_matrices/          # Confusion matrix visualizations
+│       └── weights/                     # Saved model weights per epoch
+│           ├── CustomCNN_12Lead_1.weights.h5
+│           ├── CustomCNN_12Lead_2.weights.h5
+│           └── ...
 │
-└── 📂 probe_training_sessions/      # Linear probing analysis results
-    └── session_1/                  # Feature space probing session 1
-        ├── age/                    # Age-based classification results
-        ├── height/                 # Height-based classification results
-        ├── sex/                    # Sex-based classification results
-        └── weight/                 # Weight-based classification results
+└── 📂 probe_training_sessions/            # Linear probing analysis results
+    └── session_1/                        # Feature space probing session 1
+        ├── age/                    
+        ├── height/                 
+        ├── sex/                    
+        └── weight/                 
             ├── classification_report.txt  # Probing performance metrics
             ├── training_log.txt           # Probing training logs
             └── weights/                   # Saved probe classifier weights
