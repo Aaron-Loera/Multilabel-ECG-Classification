@@ -1,0 +1,14 @@
+Age Accuracy Score: 58.88%
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+           0       0.55      0.13      0.21       204
+           1       0.55      0.40      0.46       920
+           2       0.60      0.88      0.71      2253
+           3       0.58      0.16      0.26       927
+
+    accuracy                           0.59      4304
+   macro avg       0.57      0.39      0.41      4304
+weighted avg       0.58      0.59      0.54      4304

@@ -1,0 +1,280 @@
+Epoch 1/70
+492/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.4919 - Accuracy: 0.5335 - Precision: 0.4674 - Recall: 0.2867 - loss: 0.7746
+Epoch 1: val_Accuracy improved from -inf to 0.55785, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_1.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - AUC: 0.4980 - Accuracy: 0.5360 - Precision: 0.4741 - Recall: 0.3041 - loss: 0.7692 - val_AUC: 0.5755 - val_Accuracy: 0.5579 - val_Precision: 0.5370 - val_Recall: 0.6168 - val_loss: 0.6904
+Epoch 2/70
+516/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.6397 - Accuracy: 0.6017 - Precision: 0.5750 - Recall: 0.6580 - loss: 0.6664
+Epoch 2: val_Accuracy improved from 0.55785 to 0.57807, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_2.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.6399 - Accuracy: 0.6018 - Precision: 0.5750 - Recall: 0.6581 - loss: 0.6663 - val_AUC: 0.6132 - val_Accuracy: 0.5781 - val_Precision: 0.5570 - val_Recall: 0.6197 - val_loss: 0.6773
+Epoch 3/70
+500/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.6566 - Accuracy: 0.6095 - Precision: 0.5830 - Recall: 0.6345 - loss: 0.6585
+Epoch 3: val_Accuracy improved from 0.57807 to 0.59178, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_3.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.6574 - Accuracy: 0.6100 - Precision: 0.5836 - Recall: 0.6357 - loss: 0.6581 - val_AUC: 0.6296 - val_Accuracy: 0.5918 - val_Precision: 0.5739 - val_Recall: 0.6029 - val_loss: 0.6716
+Epoch 4/70
+518/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.6856 - Accuracy: 0.6325 - Precision: 0.6097 - Recall: 0.6397 - loss: 0.6441
+Epoch 4: val_Accuracy did not improve from 0.59178
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.6855 - Accuracy: 0.6324 - Precision: 0.6097 - Recall: 0.6396 - loss: 0.6441 - val_AUC: 0.6324 - val_Accuracy: 0.5795 - val_Precision: 0.5539 - val_Recall: 0.6673 - val_loss: 0.6704
+Epoch 5/70
+526/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.6873 - Accuracy: 0.6344 - Precision: 0.6126 - Recall: 0.6457 - loss: 0.6428
+Epoch 5: val_Accuracy improved from 0.59178 to 0.60920, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_5.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - AUC: 0.6874 - Accuracy: 0.6345 - Precision: 0.6127 - Recall: 0.6456 - loss: 0.6427 - val_AUC: 0.6468 - val_Accuracy: 0.6092 - val_Precision: 0.6042 - val_Recall: 0.5548 - val_loss: 0.6634
+Epoch 6/70
+520/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.6969 - Accuracy: 0.6423 - Precision: 0.6270 - Recall: 0.6084 - loss: 0.6368
+Epoch 6: val_Accuracy did not improve from 0.60920
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.6971 - Accuracy: 0.6425 - Precision: 0.6271 - Recall: 0.6091 - loss: 0.6367 - val_AUC: 0.6528 - val_Accuracy: 0.6064 - val_Precision: 0.5865 - val_Recall: 0.6293 - val_loss: 0.6593
+Epoch 7/70
+521/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7081 - Accuracy: 0.6559 - Precision: 0.6447 - Recall: 0.6338 - loss: 0.6316
+Epoch 7: val_Accuracy improved from 0.60920 to 0.60943, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_7.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7082 - Accuracy: 0.6559 - Precision: 0.6447 - Recall: 0.6339 - loss: 0.6315 - val_AUC: 0.6553 - val_Accuracy: 0.6094 - val_Precision: 0.5934 - val_Recall: 0.6096 - val_loss: 0.6576
+Epoch 8/70
+534/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7198 - Accuracy: 0.6587 - Precision: 0.6441 - Recall: 0.6387 - loss: 0.6232
+Epoch 8: val_Accuracy improved from 0.60943 to 0.61269, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_8.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7198 - Accuracy: 0.6587 - Precision: 0.6441 - Recall: 0.6387 - loss: 0.6232 - val_AUC: 0.6608 - val_Accuracy: 0.6127 - val_Precision: 0.5946 - val_Recall: 0.6240 - val_loss: 0.6546
+Epoch 9/70
+509/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7175 - Accuracy: 0.6648 - Precision: 0.6566 - Recall: 0.6322 - loss: 0.6240
+Epoch 9: val_Accuracy did not improve from 0.61269
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7176 - Accuracy: 0.6648 - Precision: 0.6565 - Recall: 0.6325 - loss: 0.6240 - val_AUC: 0.6595 - val_Accuracy: 0.6118 - val_Precision: 0.5976 - val_Recall: 0.6019 - val_loss: 0.6545
+Epoch 10/70
+490/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7181 - Accuracy: 0.6577 - Precision: 0.6479 - Recall: 0.6373 - loss: 0.6242
+Epoch 10: val_Accuracy improved from 0.61269 to 0.61826, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_10.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7186 - Accuracy: 0.6583 - Precision: 0.6485 - Recall: 0.6375 - loss: 0.6239 - val_AUC: 0.6654 - val_Accuracy: 0.6183 - val_Precision: 0.6037 - val_Recall: 0.6115 - val_loss: 0.6516
+Epoch 11/70
+530/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7218 - Accuracy: 0.6656 - Precision: 0.6562 - Recall: 0.6327 - loss: 0.6197  
+Epoch 11: val_Accuracy improved from 0.61826 to 0.63522, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_11.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7219 - Accuracy: 0.6656 - Precision: 0.6563 - Recall: 0.6328 - loss: 0.6197 - val_AUC: 0.6785 - val_Accuracy: 0.6352 - val_Precision: 0.6377 - val_Recall: 0.5678 - val_loss: 0.6460
+Epoch 12/70
+503/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7285 - Accuracy: 0.6759 - Precision: 0.6707 - Recall: 0.6173 - loss: 0.6155
+Epoch 12: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7286 - Accuracy: 0.6759 - Precision: 0.6707 - Recall: 0.6185 - loss: 0.6154 - val_AUC: 0.6677 - val_Accuracy: 0.6094 - val_Precision: 0.5882 - val_Recall: 0.6394 - val_loss: 0.6506
+Epoch 13/70
+482/534 ━━━━━━━━━━━━━━━━━━━━ 0s 990us/step - AUC: 0.7374 - Accuracy: 0.6830 - Precision: 0.6718 - Recall: 0.6464 - loss: 0.6093
+Epoch 13: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7371 - Accuracy: 0.6825 - Precision: 0.6717 - Recall: 0.6462 - loss: 0.6095 - val_AUC: 0.6872 - val_Accuracy: 0.6341 - val_Precision: 0.6203 - val_Recall: 0.6260 - val_loss: 0.6407
+Epoch 14/70
+508/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7394 - Accuracy: 0.6818 - Precision: 0.6768 - Recall: 0.6465 - loss: 0.6085
+Epoch 14: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7393 - Accuracy: 0.6816 - Precision: 0.6767 - Recall: 0.6463 - loss: 0.6085 - val_AUC: 0.6793 - val_Accuracy: 0.6238 - val_Precision: 0.6055 - val_Recall: 0.6361 - val_loss: 0.6441
+Epoch 15/70
+533/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7403 - Accuracy: 0.6832 - Precision: 0.6719 - Recall: 0.6494 - loss: 0.6059
+Epoch 15: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7403 - Accuracy: 0.6832 - Precision: 0.6719 - Recall: 0.6494 - loss: 0.6059 - val_AUC: 0.6783 - val_Accuracy: 0.6145 - val_Precision: 0.5880 - val_Recall: 0.6764 - val_loss: 0.6465
+Epoch 16/70
+532/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7392 - Accuracy: 0.6784 - Precision: 0.6684 - Recall: 0.6487 - loss: 0.6069
+Epoch 16: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7392 - Accuracy: 0.6784 - Precision: 0.6685 - Recall: 0.6487 - loss: 0.6068 - val_AUC: 0.6829 - val_Accuracy: 0.6303 - val_Precision: 0.6154 - val_Recall: 0.6269 - val_loss: 0.6411
+Epoch 17/70
+514/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7424 - Accuracy: 0.6840 - Precision: 0.6813 - Recall: 0.6440 - loss: 0.6050
+Epoch 17: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7425 - Accuracy: 0.6840 - Precision: 0.6813 - Recall: 0.6441 - loss: 0.6050 - val_AUC: 0.6818 - val_Accuracy: 0.6329 - val_Precision: 0.6235 - val_Recall: 0.6067 - val_loss: 0.6413
+Epoch 18/70
+518/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7437 - Accuracy: 0.6823 - Precision: 0.6835 - Recall: 0.6387 - loss: 0.6035
+Epoch 18: val_Accuracy did not improve from 0.63522
+534/534 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - AUC: 0.7437 - Accuracy: 0.6824 - Precision: 0.6835 - Recall: 0.6388 - loss: 0.6035 - val_AUC: 0.6902 - val_Accuracy: 0.6336 - val_Precision: 0.6180 - val_Recall: 0.6332 - val_loss: 0.6370
+Epoch 19/70
+512/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7478 - Accuracy: 0.6852 - Precision: 0.6791 - Recall: 0.6520 - loss: 0.6010
+Epoch 19: val_Accuracy improved from 0.63522 to 0.65567, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_19.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7478 - Accuracy: 0.6852 - Precision: 0.6792 - Recall: 0.6519 - loss: 0.6009 - val_AUC: 0.7021 - val_Accuracy: 0.6557 - val_Precision: 0.6697 - val_Recall: 0.5673 - val_loss: 0.6319
+Epoch 20/70
+509/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7501 - Accuracy: 0.6842 - Precision: 0.6842 - Recall: 0.6381 - loss: 0.5997
+Epoch 20: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7501 - Accuracy: 0.6844 - Precision: 0.6842 - Recall: 0.6385 - loss: 0.5996 - val_AUC: 0.6884 - val_Accuracy: 0.6341 - val_Precision: 0.6186 - val_Recall: 0.6332 - val_loss: 0.6374
+Epoch 21/70
+534/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7482 - Accuracy: 0.6864 - Precision: 0.6851 - Recall: 0.6376 - loss: 0.5988
+Epoch 21: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7482 - Accuracy: 0.6864 - Precision: 0.6851 - Recall: 0.6377 - loss: 0.5988 - val_AUC: 0.6969 - val_Accuracy: 0.6480 - val_Precision: 0.6422 - val_Recall: 0.6135 - val_loss: 0.6324
+Epoch 22/70
+524/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7597 - Accuracy: 0.6984 - Precision: 0.6972 - Recall: 0.6551 - loss: 0.5907
+Epoch 22: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7596 - Accuracy: 0.6982 - Precision: 0.6970 - Recall: 0.6550 - loss: 0.5908 - val_AUC: 0.6955 - val_Accuracy: 0.6457 - val_Precision: 0.6388 - val_Recall: 0.6139 - val_loss: 0.6326
+Epoch 23/70
+493/534 ━━━━━━━━━━━━━━━━━━━━ 0s 977us/step - AUC: 0.7492 - Accuracy: 0.6873 - Precision: 0.6831 - Recall: 0.6404 - loss: 0.5972
+Epoch 23: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7496 - Accuracy: 0.6876 - Precision: 0.6836 - Recall: 0.6410 - loss: 0.5969 - val_AUC: 0.7054 - val_Accuracy: 0.6538 - val_Precision: 0.6465 - val_Recall: 0.6260 - val_loss: 0.6278
+Epoch 24/70
+507/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7543 - Accuracy: 0.6936 - Precision: 0.6884 - Recall: 0.6494 - loss: 0.5953 
+Epoch 24: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7543 - Accuracy: 0.6936 - Precision: 0.6885 - Recall: 0.6494 - loss: 0.5953 - val_AUC: 0.6974 - val_Accuracy: 0.6427 - val_Precision: 0.6244 - val_Recall: 0.6538 - val_loss: 0.6322
+Epoch 25/70
+509/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7508 - Accuracy: 0.6857 - Precision: 0.6839 - Recall: 0.6391 - loss: 0.5964
+Epoch 25: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7511 - Accuracy: 0.6860 - Precision: 0.6842 - Recall: 0.6395 - loss: 0.5962 - val_AUC: 0.6965 - val_Accuracy: 0.6410 - val_Precision: 0.6254 - val_Recall: 0.6413 - val_loss: 0.6324
+Epoch 26/70
+533/534 ━━━━━━━━━━━━━━━━━━━━ 0s 910us/step - AUC: 0.7555 - Accuracy: 0.6909 - Precision: 0.6899 - Recall: 0.6461 - loss: 0.5923
+Epoch 26: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7555 - Accuracy: 0.6909 - Precision: 0.6899 - Recall: 0.6461 - loss: 0.5923 - val_AUC: 0.7014 - val_Accuracy: 0.6526 - val_Precision: 0.6439 - val_Recall: 0.6293 - val_loss: 0.6292
+Epoch 27/70
+495/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7517 - Accuracy: 0.6904 - Precision: 0.6852 - Recall: 0.6423 - loss: 0.5932
+Epoch 27: val_Accuracy did not improve from 0.65567
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7522 - Accuracy: 0.6908 - Precision: 0.6859 - Recall: 0.6431 - loss: 0.5929 - val_AUC: 0.6995 - val_Accuracy: 0.6429 - val_Precision: 0.6238 - val_Recall: 0.6577 - val_loss: 0.6309
+Epoch 28/70
+527/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7577 - Accuracy: 0.6910 - Precision: 0.6899 - Recall: 0.6592 - loss: 0.5906
+Epoch 28: val_Accuracy improved from 0.65567 to 0.66055, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_28.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7577 - Accuracy: 0.6910 - Precision: 0.6900 - Recall: 0.6591 - loss: 0.5906 - val_AUC: 0.7068 - val_Accuracy: 0.6605 - val_Precision: 0.6694 - val_Recall: 0.5880 - val_loss: 0.6261
+Epoch 29/70
+520/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7597 - Accuracy: 0.6980 - Precision: 0.6977 - Recall: 0.6405 - loss: 0.5886
+Epoch 29: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7597 - Accuracy: 0.6980 - Precision: 0.6977 - Recall: 0.6408 - loss: 0.5886 - val_AUC: 0.6991 - val_Accuracy: 0.6401 - val_Precision: 0.6196 - val_Recall: 0.6611 - val_loss: 0.6313
+Epoch 30/70
+504/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7628 - Accuracy: 0.6996 - Precision: 0.6966 - Recall: 0.6596 - loss: 0.5867
+Epoch 30: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7628 - Accuracy: 0.6994 - Precision: 0.6965 - Recall: 0.6593 - loss: 0.5867 - val_AUC: 0.7049 - val_Accuracy: 0.6568 - val_Precision: 0.6601 - val_Recall: 0.5976 - val_loss: 0.6268
+Epoch 31/70
+499/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7641 - Accuracy: 0.6960 - Precision: 0.6999 - Recall: 0.6613 - loss: 0.5843
+Epoch 31: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7639 - Accuracy: 0.6961 - Precision: 0.6996 - Recall: 0.6607 - loss: 0.5844 - val_AUC: 0.7086 - val_Accuracy: 0.6520 - val_Precision: 0.6370 - val_Recall: 0.6505 - val_loss: 0.6247
+Epoch 32/70
+516/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7651 - Accuracy: 0.6972 - Precision: 0.6991 - Recall: 0.6658 - loss: 0.5842
+Epoch 32: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7651 - Accuracy: 0.6972 - Precision: 0.6990 - Recall: 0.6654 - loss: 0.5843 - val_AUC: 0.7061 - val_Accuracy: 0.6589 - val_Precision: 0.6571 - val_Recall: 0.6154 - val_loss: 0.6254
+Epoch 33/70
+532/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7641 - Accuracy: 0.6995 - Precision: 0.6999 - Recall: 0.6648 - loss: 0.5853
+Epoch 33: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7641 - Accuracy: 0.6995 - Precision: 0.6999 - Recall: 0.6648 - loss: 0.5853 - val_AUC: 0.7078 - val_Accuracy: 0.6596 - val_Precision: 0.6607 - val_Recall: 0.6077 - val_loss: 0.6246
+Epoch 34/70
+514/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7649 - Accuracy: 0.7002 - Precision: 0.7004 - Recall: 0.6504 - loss: 0.5824
+Epoch 34: val_Accuracy did not improve from 0.66055
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7649 - Accuracy: 0.7002 - Precision: 0.7004 - Recall: 0.6507 - loss: 0.5825 - val_AUC: 0.7081 - val_Accuracy: 0.6522 - val_Precision: 0.6385 - val_Recall: 0.6462 - val_loss: 0.6244
+Epoch 35/70
+529/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7657 - Accuracy: 0.6956 - Precision: 0.6928 - Recall: 0.6607 - loss: 0.5823
+Epoch 35: val_Accuracy improved from 0.66055 to 0.66450, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_35.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - AUC: 0.7657 - Accuracy: 0.6957 - Precision: 0.6928 - Recall: 0.6607 - loss: 0.5823 - val_AUC: 0.7150 - val_Accuracy: 0.6645 - val_Precision: 0.6701 - val_Recall: 0.6024 - val_loss: 0.6203
+Epoch 36/70
+517/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7622 - Accuracy: 0.6930 - Precision: 0.6918 - Recall: 0.6365 - loss: 0.5844
+Epoch 36: val_Accuracy did not improve from 0.66450
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7623 - Accuracy: 0.6933 - Precision: 0.6920 - Recall: 0.6371 - loss: 0.5844 - val_AUC: 0.7127 - val_Accuracy: 0.6608 - val_Precision: 0.6492 - val_Recall: 0.6486 - val_loss: 0.6215
+Epoch 37/70
+522/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7722 - Accuracy: 0.7025 - Precision: 0.7018 - Recall: 0.6637 - loss: 0.5777
+Epoch 37: val_Accuracy did not improve from 0.66450
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7721 - Accuracy: 0.7024 - Precision: 0.7018 - Recall: 0.6635 - loss: 0.5778 - val_AUC: 0.7062 - val_Accuracy: 0.6513 - val_Precision: 0.6412 - val_Recall: 0.6322 - val_loss: 0.6252
+Epoch 38/70
+498/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7656 - Accuracy: 0.7018 - Precision: 0.6992 - Recall: 0.6517 - loss: 0.5810
+Epoch 38: val_Accuracy did not improve from 0.66450
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7657 - Accuracy: 0.7018 - Precision: 0.6994 - Recall: 0.6521 - loss: 0.5809 - val_AUC: 0.7153 - val_Accuracy: 0.6626 - val_Precision: 0.6594 - val_Recall: 0.6245 - val_loss: 0.6197
+Epoch 39/70
+528/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7675 - Accuracy: 0.7012 - Precision: 0.7037 - Recall: 0.6557 - loss: 0.5813
+Epoch 39: val_Accuracy did not improve from 0.66450
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7675 - Accuracy: 0.7012 - Precision: 0.7036 - Recall: 0.6558 - loss: 0.5813 - val_AUC: 0.7109 - val_Accuracy: 0.6587 - val_Precision: 0.6521 - val_Recall: 0.6298 - val_loss: 0.6218
+Epoch 40/70
+502/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7691 - Accuracy: 0.7018 - Precision: 0.7039 - Recall: 0.6568 - loss: 0.5796
+Epoch 40: val_Accuracy did not improve from 0.66450
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7691 - Accuracy: 0.7019 - Precision: 0.7039 - Recall: 0.6567 - loss: 0.5796 - val_AUC: 0.7112 - val_Accuracy: 0.6508 - val_Precision: 0.6335 - val_Recall: 0.6582 - val_loss: 0.6229
+Epoch 41/70
+531/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7667 - Accuracy: 0.7024 - Precision: 0.7039 - Recall: 0.6701 - loss: 0.5808
+Epoch 41: val_Accuracy improved from 0.66450 to 0.66775, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_41.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7667 - Accuracy: 0.7024 - Precision: 0.7039 - Recall: 0.6700 - loss: 0.5808 - val_AUC: 0.7192 - val_Accuracy: 0.6678 - val_Precision: 0.6686 - val_Recall: 0.6197 - val_loss: 0.6171
+Epoch 42/70
+494/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7682 - Accuracy: 0.7039 - Precision: 0.7026 - Recall: 0.6619 - loss: 0.5808
+Epoch 42: val_Accuracy did not improve from 0.66775
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7683 - Accuracy: 0.7040 - Precision: 0.7028 - Recall: 0.6620 - loss: 0.5806 - val_AUC: 0.7104 - val_Accuracy: 0.6615 - val_Precision: 0.6569 - val_Recall: 0.6269 - val_loss: 0.6224
+Epoch 43/70
+532/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7668 - Accuracy: 0.7010 - Precision: 0.7047 - Recall: 0.6521 - loss: 0.5796
+Epoch 43: val_Accuracy did not improve from 0.66775
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7668 - Accuracy: 0.7010 - Precision: 0.7047 - Recall: 0.6522 - loss: 0.5796 - val_AUC: 0.7098 - val_Accuracy: 0.6592 - val_Precision: 0.6587 - val_Recall: 0.6115 - val_loss: 0.6230
+Epoch 44/70
+496/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7677 - Accuracy: 0.7001 - Precision: 0.7036 - Recall: 0.6525 - loss: 0.5775
+Epoch 44: val_Accuracy did not improve from 0.66775
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7679 - Accuracy: 0.7005 - Precision: 0.7037 - Recall: 0.6530 - loss: 0.5774 - val_AUC: 0.7148 - val_Accuracy: 0.6559 - val_Precision: 0.6386 - val_Recall: 0.6635 - val_loss: 0.6205
+Epoch 45/70
+529/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7725 - Accuracy: 0.7088 - Precision: 0.7087 - Recall: 0.6698 - loss: 0.5751
+Epoch 45: val_Accuracy did not improve from 0.66775
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7724 - Accuracy: 0.7087 - Precision: 0.7086 - Recall: 0.6698 - loss: 0.5751 - val_AUC: 0.7151 - val_Accuracy: 0.6633 - val_Precision: 0.6543 - val_Recall: 0.6433 - val_loss: 0.6192
+Epoch 46/70
+513/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7766 - Accuracy: 0.7104 - Precision: 0.7151 - Recall: 0.6713 - loss: 0.5719
+Epoch 46: val_Accuracy improved from 0.66775 to 0.66914, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_46.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7764 - Accuracy: 0.7102 - Precision: 0.7146 - Recall: 0.6709 - loss: 0.5720 - val_AUC: 0.7182 - val_Accuracy: 0.6691 - val_Precision: 0.6747 - val_Recall: 0.6091 - val_loss: 0.6173
+Epoch 47/70
+525/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7743 - Accuracy: 0.7095 - Precision: 0.7115 - Recall: 0.6615 - loss: 0.5741
+Epoch 47: val_Accuracy did not improve from 0.66914
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7743 - Accuracy: 0.7095 - Precision: 0.7115 - Recall: 0.6615 - loss: 0.5741 - val_AUC: 0.7148 - val_Accuracy: 0.6513 - val_Precision: 0.6300 - val_Recall: 0.6745 - val_loss: 0.6215
+Epoch 48/70
+527/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7748 - Accuracy: 0.7107 - Precision: 0.7116 - Recall: 0.6776 - loss: 0.5736
+Epoch 48: val_Accuracy did not improve from 0.66914
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7747 - Accuracy: 0.7106 - Precision: 0.7115 - Recall: 0.6774 - loss: 0.5736 - val_AUC: 0.7178 - val_Accuracy: 0.6671 - val_Precision: 0.6674 - val_Recall: 0.6202 - val_loss: 0.6174
+Epoch 49/70
+509/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7746 - Accuracy: 0.7024 - Precision: 0.7034 - Recall: 0.6550 - loss: 0.5721
+Epoch 49: val_Accuracy did not improve from 0.66914
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7745 - Accuracy: 0.7025 - Precision: 0.7035 - Recall: 0.6552 - loss: 0.5722 - val_AUC: 0.7171 - val_Accuracy: 0.6661 - val_Precision: 0.6643 - val_Recall: 0.6250 - val_loss: 0.6178
+Epoch 50/70
+532/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7718 - Accuracy: 0.7056 - Precision: 0.7079 - Recall: 0.6703 - loss: 0.5747
+Epoch 50: val_Accuracy did not improve from 0.66914
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7718 - Accuracy: 0.7056 - Precision: 0.7079 - Recall: 0.6703 - loss: 0.5746 - val_AUC: 0.7176 - val_Accuracy: 0.6619 - val_Precision: 0.6502 - val_Recall: 0.6505 - val_loss: 0.6179
+Epoch 51/70
+512/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7660 - Accuracy: 0.7011 - Precision: 0.7032 - Recall: 0.6479 - loss: 0.5789
+Epoch 51: val_Accuracy improved from 0.66914 to 0.67193, saving model to c:\Users\loera\Documents\Multilabel-ECG-Classification\probe_training_sessions\session_1\sex\weights\Probing_Classfier_51.weights.h5
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7664 - Accuracy: 0.7013 - Precision: 0.7034 - Recall: 0.6486 - loss: 0.5786 - val_AUC: 0.7225 - val_Accuracy: 0.6719 - val_Precision: 0.6811 - val_Recall: 0.6038 - val_loss: 0.6146
+Epoch 52/70
+501/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7761 - Accuracy: 0.7064 - Precision: 0.7141 - Recall: 0.6646 - loss: 0.5724
+Epoch 52: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7759 - Accuracy: 0.7064 - Precision: 0.7138 - Recall: 0.6644 - loss: 0.5724 - val_AUC: 0.7209 - val_Accuracy: 0.6652 - val_Precision: 0.6549 - val_Recall: 0.6495 - val_loss: 0.6157
+Epoch 53/70
+532/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7724 - Accuracy: 0.7067 - Precision: 0.7078 - Recall: 0.6596 - loss: 0.5739
+Epoch 53: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7724 - Accuracy: 0.7067 - Precision: 0.7078 - Recall: 0.6596 - loss: 0.5739 - val_AUC: 0.7141 - val_Accuracy: 0.6533 - val_Precision: 0.6370 - val_Recall: 0.6572 - val_loss: 0.6208
+Epoch 54/70
+499/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7723 - Accuracy: 0.7005 - Precision: 0.6983 - Recall: 0.6564 - loss: 0.5730
+Epoch 54: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7724 - Accuracy: 0.7009 - Precision: 0.6989 - Recall: 0.6569 - loss: 0.5730 - val_AUC: 0.7219 - val_Accuracy: 0.6684 - val_Precision: 0.6660 - val_Recall: 0.6298 - val_loss: 0.6144
+Epoch 55/70
+520/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7737 - Accuracy: 0.7065 - Precision: 0.7092 - Recall: 0.6626 - loss: 0.5737
+Epoch 55: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7737 - Accuracy: 0.7066 - Precision: 0.7092 - Recall: 0.6626 - loss: 0.5736 - val_AUC: 0.7187 - val_Accuracy: 0.6638 - val_Precision: 0.6558 - val_Recall: 0.6404 - val_loss: 0.6167
+Epoch 56/70
+501/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7739 - Accuracy: 0.7056 - Precision: 0.7068 - Recall: 0.6600 - loss: 0.5721
+Epoch 56: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7740 - Accuracy: 0.7059 - Precision: 0.7070 - Recall: 0.6605 - loss: 0.5721 - val_AUC: 0.7185 - val_Accuracy: 0.6626 - val_Precision: 0.6518 - val_Recall: 0.6481 - val_loss: 0.6171
+Epoch 57/70
+520/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7721 - Accuracy: 0.7050 - Precision: 0.7076 - Recall: 0.6649 - loss: 0.5739
+Epoch 57: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7722 - Accuracy: 0.7051 - Precision: 0.7076 - Recall: 0.6650 - loss: 0.5739 - val_AUC: 0.7179 - val_Accuracy: 0.6691 - val_Precision: 0.6686 - val_Recall: 0.6255 - val_loss: 0.6172
+Epoch 58/70
+511/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7782 - Accuracy: 0.7106 - Precision: 0.7113 - Recall: 0.6685 - loss: 0.5687
+Epoch 58: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7781 - Accuracy: 0.7105 - Precision: 0.7112 - Recall: 0.6683 - loss: 0.5687 - val_AUC: 0.7186 - val_Accuracy: 0.6678 - val_Precision: 0.6660 - val_Recall: 0.6269 - val_loss: 0.6166
+Epoch 59/70
+487/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7688 - Accuracy: 0.7055 - Precision: 0.7062 - Recall: 0.6536 - loss: 0.5765
+Epoch 59: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7694 - Accuracy: 0.7059 - Precision: 0.7066 - Recall: 0.6547 - loss: 0.5760 - val_AUC: 0.7164 - val_Accuracy: 0.6659 - val_Precision: 0.6634 - val_Recall: 0.6264 - val_loss: 0.6184
+Epoch 60/70
+518/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7733 - Accuracy: 0.7044 - Precision: 0.7100 - Recall: 0.6620 - loss: 0.5731
+Epoch 60: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7734 - Accuracy: 0.7046 - Precision: 0.7101 - Recall: 0.6621 - loss: 0.5730 - val_AUC: 0.7147 - val_Accuracy: 0.6561 - val_Precision: 0.6407 - val_Recall: 0.6567 - val_loss: 0.6203
+Epoch 61/70
+517/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7783 - Accuracy: 0.7106 - Precision: 0.7151 - Recall: 0.6708 - loss: 0.5682
+Epoch 61: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7782 - Accuracy: 0.7106 - Precision: 0.7150 - Recall: 0.6706 - loss: 0.5683 - val_AUC: 0.7239 - val_Accuracy: 0.6664 - val_Precision: 0.6571 - val_Recall: 0.6476 - val_loss: 0.6133
+Epoch 62/70
+509/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7776 - Accuracy: 0.7110 - Precision: 0.7111 - Recall: 0.6605 - loss: 0.5683
+Epoch 62: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7776 - Accuracy: 0.7109 - Precision: 0.7111 - Recall: 0.6607 - loss: 0.5684 - val_AUC: 0.7229 - val_Accuracy: 0.6680 - val_Precision: 0.6641 - val_Recall: 0.6332 - val_loss: 0.6136
+Epoch 63/70
+528/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7748 - Accuracy: 0.7074 - Precision: 0.7114 - Recall: 0.6544 - loss: 0.5709
+Epoch 63: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7748 - Accuracy: 0.7074 - Precision: 0.7113 - Recall: 0.6545 - loss: 0.5709 - val_AUC: 0.7277 - val_Accuracy: 0.6689 - val_Precision: 0.6672 - val_Recall: 0.6284 - val_loss: 0.6105
+Epoch 64/70
+492/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7793 - Accuracy: 0.7093 - Precision: 0.7125 - Recall: 0.6736 - loss: 0.5677
+Epoch 64: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7791 - Accuracy: 0.7092 - Precision: 0.7122 - Recall: 0.6729 - loss: 0.5679 - val_AUC: 0.7224 - val_Accuracy: 0.6650 - val_Precision: 0.6544 - val_Recall: 0.6500 - val_loss: 0.6144
+Epoch 65/70
+533/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7856 - Accuracy: 0.7196 - Precision: 0.7201 - Recall: 0.6763 - loss: 0.5622
+Epoch 65: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - AUC: 0.7856 - Accuracy: 0.7196 - Precision: 0.7200 - Recall: 0.6763 - loss: 0.5622 - val_AUC: 0.7263 - val_Accuracy: 0.6668 - val_Precision: 0.6579 - val_Recall: 0.6471 - val_loss: 0.6116
+Epoch 66/70
+514/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7731 - Accuracy: 0.7059 - Precision: 0.7073 - Recall: 0.6742 - loss: 0.5727
+Epoch 66: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7733 - Accuracy: 0.7060 - Precision: 0.7073 - Recall: 0.6739 - loss: 0.5725 - val_AUC: 0.7206 - val_Accuracy: 0.6568 - val_Precision: 0.6395 - val_Recall: 0.6644 - val_loss: 0.6167
+Epoch 67/70
+533/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7751 - Accuracy: 0.7103 - Precision: 0.7083 - Recall: 0.6725 - loss: 0.5702
+Epoch 67: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7751 - Accuracy: 0.7103 - Precision: 0.7084 - Recall: 0.6725 - loss: 0.5702 - val_AUC: 0.7208 - val_Accuracy: 0.6619 - val_Precision: 0.6499 - val_Recall: 0.6514 - val_loss: 0.6157
+Epoch 68/70
+527/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7750 - Accuracy: 0.7090 - Precision: 0.7073 - Recall: 0.6679 - loss: 0.5702
+Epoch 68: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7750 - Accuracy: 0.7090 - Precision: 0.7074 - Recall: 0.6679 - loss: 0.5701 - val_AUC: 0.7221 - val_Accuracy: 0.6694 - val_Precision: 0.6658 - val_Recall: 0.6341 - val_loss: 0.6142
+Epoch 69/70
+503/534 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - AUC: 0.7722 - Accuracy: 0.7068 - Precision: 0.7130 - Recall: 0.6673 - loss: 0.5724
+Epoch 69: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7725 - Accuracy: 0.7071 - Precision: 0.7129 - Recall: 0.6674 - loss: 0.5722 - val_AUC: 0.7259 - val_Accuracy: 0.6691 - val_Precision: 0.6672 - val_Recall: 0.6293 - val_loss: 0.6115
+Epoch 70/70
+508/534 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - AUC: 0.7748 - Accuracy: 0.7085 - Precision: 0.7040 - Recall: 0.6576 - loss: 0.5705
+Epoch 70: val_Accuracy did not improve from 0.67193
+534/534 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step - AUC: 0.7751 - Accuracy: 0.7087 - Precision: 0.7044 - Recall: 0.6582 - loss: 0.5704 - val_AUC: 0.7176 - val_Accuracy: 0.6638 - val_Precision: 0.6531 - val_Recall: 0.6490 - val_loss: 0.6185
