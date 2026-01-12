@@ -1,10 +1,7 @@
 # Files
 *.h5
 *.npz
+*.xlsx
 
 # Notebooks
 Scratch.ipynb
-MC*.ipynb
-
-# Directories
-Training Sessions\
